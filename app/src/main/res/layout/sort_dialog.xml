@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layoutDirection="rtl"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/radiogroupsort">
+
+        <RadioButton
+            android:id="@+id/newest_sort"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="جدیدترین"
+            android:textColor="@color/black"
+            android:textSize="20dp" />
+
+        <RadioButton
+            android:id="@+id/viewest_sort"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="پر بازدید ترین"
+            android:textColor="@color/black"
+            android:textSize="20dp" />
+
+        <RadioButton
+            android:id="@+id/rate_sort"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="امتیاز"
+            android:textColor="@color/black"
+            android:textSize="20dp" />
+
+    </RadioGroup>
+
+</LinearLayout>
